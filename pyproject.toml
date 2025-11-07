@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-hw-number-16"
+version = "0.1.0"
+description = ""
+authors = ["konstatin fedoseev <kons.fed.99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selene = "2.0.0rc9"
+pytest = "8.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pylint (==4.0.2)"
+]
